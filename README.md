@@ -2,9 +2,9 @@
 
 Der Xovilichter Dynapso Scraper fragt die aktuellen Keyword Platzierungen der Dynapso Contest Seite ab und gibt diese als Array zurück.
 
-Ambitionierte SEOs haben so die Möglichkeit ihre eigene Seite und die Xovilichter Konkurenz Seiten immer im Blick zu behalten. 
+Ambitionierte SEOs haben so die Möglichkeit ihre eigene Seite und die Xovilichter Konkurrenz Seiten immer im Blick zu behalten. 
 
-Das Xovilichter SEO Gewinnspiel läuft noch bis zum 19. Juli 2014. Bis dahin werden noch einige Erweiterungen am Scraper folgen.
+Das Xovilichter SEO Gewinnspiel von [Xovi](https://github.com/xovilichter/xovi) läuft noch bis zum 19. Juli 2014. Bis dahin werden noch einige Erweiterungen am Scraper folgen.
 
 ## Installation 
 
