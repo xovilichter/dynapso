@@ -13,9 +13,29 @@ preg_match_all('#<td class="right"><span data-sort="(.*)">(.*)</span></td> <td c
 $search_results = array();
 
 foreach($matches[1] as $n => $position){
+
+	if(preg_match('#<img class="icon" src="http://www.dynapso.de/images/icons/(.*).png" alt="(.*)"#Uis', $matches[2][$n], $universal_search_match)){
+		$type = $universal_search_match[1];		
+	}else{
+		$type = 'organic';
+	}
+	
+	if(preg_match('#<a href="(.*)" title="(.*)" target="_blank"><img class="ico" src="(.*)" alt="(.*)"#Uis', $matches[5][$n], $google_plus_match)){	
+		
+		$google_plus = array(
+			'name' => $google_plus_match[4],
+			'short_url' => $google_plus_match[1],
+		);		
+		
+	}else{
+		$google_plus = array();
+	}
+
 	$search_results[] = array(
 		'position' => $position,
 		'url' => $matches[3][$n],
+		'type' => $type,
+		'google_plus' => $google_plus,
 	);
 }
 
