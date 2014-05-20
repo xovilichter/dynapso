@@ -20,13 +20,11 @@ foreach($matches[1] as $n => $position){
 		$type = 'organic';
 	}
 	
-	if(preg_match('#<a href="(.*)" title="(.*)" target="_blank"><img class="ico" src="(.*)" alt="(.*)"#Uis', $matches[5][$n], $google_plus_match)){	
-		
+	if(preg_match('#<a href="(.*)" title="(.*)" target="_blank"><img class="ico" src="(.*)" alt="(.*)"#Uis', $matches[5][$n], $google_plus_match)){
 		$google_plus = array(
 			'name' => $google_plus_match[4],
 			'short_url' => $google_plus_match[1],
-		);		
-		
+		);
 	}else{
 		$google_plus = array();
 	}
