@@ -12,7 +12,7 @@ function xovilichter_dynapso_scraper(){
 	$ch = curl_init(); 
 	curl_setopt($ch, CURLOPT_URL, "http://www.dynapso.de/xovilichter/"); 
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-	curl_setopt($ch, CURLOPT_USERAGENT, 'Xovilichter.Dynapso/1.0 (+https://github.com/xovilichter/dynapso)');
+	curl_setopt($ch, CURLOPT_USERAGENT, 'Xovilichter.Dynapso/1.1 (+https://github.com/xovilichter/dynapso)');
 	curl_setopt($ch, CURLOPT_REFERER, 'https://github.com/xovilichter/dynapso'); 
 	$output = curl_exec($ch);
 	curl_close($ch);
