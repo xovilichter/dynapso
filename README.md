@@ -1,4 +1,4 @@
-# Xovilichter Dynapso Scraper 1.1
+# Xovilichter Dynapso Scraper 1.1 fürs Keyword Monitoring
 
 Der Xovilichter Dynapso Scraper fragt die aktuellen Keyword Platzierungen der Dynapso Contest Seite ab und gibt diese als Array zurück. Ambitionierte SEOs haben so die Möglichkeit ihre eigene Seite und die Xovilichter Konkurrenz Seiten immer im Blick zu behalten ohne ein eigenes [Keyword Monitoring](http://www.keywordmonitoring.de/) zu betreiben.
 
